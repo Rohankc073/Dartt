@@ -20,13 +20,28 @@
 // }
 
 
+// void main(){
+//     List<String> fruits = ["Apple","Banana","Orange"];
+//     print(fruits[0]);
+//     fruits.add("Mango");
+//     print(fruits);
+//     List<String> sliced = fruits.sublist(0,2);
+//     print(sliced);
+//     fruits.remove("Orange");
+//     print(fruits);
+// }
+
+
 void main(){
-    List<String> fruits = ["Apple","Banana","Orange"];
-    print(fruits[0]);
-    fruits.add("Mango");
-    print(fruits);
-    List<String> sliced = fruits.sublist(0,2);
-    print(sliced);
-    fruits.remove("Orange");
-    print(fruits);
+    Map< String,dynamic > person = {
+        "name" : "Rohan KC",
+        "age" : 22,
+        "gender" : "Male"
+    };
+
+    print(person);
+    print("Name : ${person["name"]}" );
+    print("Age : ${person["age"]}" );
+    print("Gender : ${person["gender"]}" );
+
 }
