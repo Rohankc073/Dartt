@@ -13,8 +13,20 @@
 //     print(fullName);
 // }
 
+// void main(){
+//     List<int> a = <int>[1,2,3,4];
+//     final c =a.reversed;
+//     print(c);
+// }
+
+
 void main(){
-    List<int> a = <int>[1,2,3,4];
-    final c =a.reversed;
-    print(c);
+    List<String> fruits = ["Apple","Banana","Orange"];
+    print(fruits[0]);
+    fruits.add("Mango");
+    print(fruits);
+    List<String> sliced = fruits.sublist(0,2);
+    print(sliced);
+    fruits.remove("Orange");
+    print(fruits);
 }
