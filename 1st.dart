@@ -7,4 +7,12 @@ void main(){
      
     var c = a+b;
     print(c);
+
+     String? fullName;
+    fullName = "Rohan KC ";
+    print(fullName);
+}
+
+void main1(){
+   
 }
