@@ -32,16 +32,22 @@
 // }
 
 
+// void main(){
+//     Map< String,dynamic > person = {
+//         "name" : "Rohan KC",
+//         "age" : 22,
+//         "gender" : "Male"
+//     };
+
+//     print(person);
+//     print("Name : ${person["name"]}" );
+//     print("Age : ${person["age"]}" );
+//     print("Gender : ${person["gender"]}" );
+
+// }
+
 void main(){
-    Map< String,dynamic > person = {
-        "name" : "Rohan KC",
-        "age" : 22,
-        "gender" : "Male"
-    };
-
-    print(person);
-    print("Name : ${person["name"]}" );
-    print("Age : ${person["age"]}" );
-    print("Gender : ${person["gender"]}" );
-
+    for(int i =0;i<=5;i++){
+        print("Count: $i");
+    }
 }
